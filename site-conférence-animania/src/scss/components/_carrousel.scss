@@ -1,0 +1,12 @@
+.carrousel{
+  display: flex;
+  justify-content: space-between;
+
+  div{
+    width: calc(33.3333% - 20px);
+
+  }
+
+}
+
+

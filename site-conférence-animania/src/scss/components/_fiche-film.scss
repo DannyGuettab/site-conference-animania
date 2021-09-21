@@ -1,0 +1,63 @@
+
+
+@media screen and (min-width: 768px) {
+
+  .liste-acteurs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .acteur {
+      width: calc(20% - 30px);
+    }
+  }
+
+
+
+  .fiche-film {
+    display: flex;
+    justify-content: space-around;
+    padding: var(--padding-large);
+
+    .image {
+      width: 45%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+
+      img {
+        border: 3px var(--color-bg-secondary) solid;
+        border-radius: 30px;
+      }
+
+
+    }
+
+    .infos {
+      width: 45%;
+      height: 50%;
+
+      p {
+        color: var(--color-text-secondary);
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+
+    .swiper-slide {
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      img {
+        width: 60%;
+      }
+      .perso{
+        color: var(--color-text-primary)
+      }
+
+    }
+  }
+
+}
